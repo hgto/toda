@@ -6,7 +6,7 @@
 [![CodeQL](https://github.com/hgto/toda/actions/workflows/codeql.yml/badge.svg)](https://github.com/hgto/toda/actions/workflows/codeql.yml)
 [![OSSAR](https://github.com/hgto/toda/actions/workflows/ossar.yml/badge.svg)](https://github.com/hgto/toda/actions/workflows/ossar.yml)
 [![codecov](https://codecov.io/gh/hgto/toda/branch/develop/graph/badge.svg)](https://codecov.io/gh/hgto/toda)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/hgto/toda/badge.svg)](https://securityscorecards.dev/viewer/?uri=github.com/hgto/toda)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/hgto/toda/badge)](https://securityscorecards.dev/viewer/?uri=github.com/hgto/toda)
 [![PyPI version](https://img.shields.io/pypi/v/toda)](https://pypi.org/project/toda/)
 [![PyPI downloads](https://img.shields.io/pypi/dm/toda)](https://pepy.tech/projects/toda)
 [![License: MPL-2.0](https://img.shields.io/pypi/l/toda)](LICENSE)
