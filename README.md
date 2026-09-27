@@ -3,7 +3,19 @@
 # Toda
 
 [![CI](https://github.com/hgto/toda/actions/workflows/ci.yml/badge.svg)](https://github.com/hgto/toda/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/hgto/toda/actions/workflows/codeql.yml/badge.svg)](https://github.com/hgto/toda/actions/workflows/codeql.yml)
+[![OSSAR](https://github.com/hgto/toda/actions/workflows/ossar.yml/badge.svg)](https://github.com/hgto/toda/actions/workflows/ossar.yml)
 [![codecov](https://codecov.io/gh/hgto/toda/branch/develop/graph/badge.svg)](https://codecov.io/gh/hgto/toda)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/hgto/toda/badge.svg)](https://securityscorecards.dev/viewer/?uri=github.com/hgto/toda)
+[![PyPI version](https://img.shields.io/pypi/v/toda)](https://pypi.org/project/toda/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/toda)](https://pepy.tech/projects/toda)
+[![License: MPL-2.0](https://img.shields.io/pypi/l/toda)](LICENSE)
+[![Python versions](https://img.shields.io/pypi/pyversions/toda)](https://pypi.org/project/toda/)
+[![Snyk](https://snyk.io/test/github/hgto/toda/badge.svg)](https://snyk.io/test/github/hgto/toda)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhgto%2Ftoda.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhgto%2Ftoda?ref=shield)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![mypy](https://img.shields.io/badge/mypy-checked-blue)](https://github.com/python/mypy)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
 Toda ([תודה](https://en.wiktionary.org/wiki/%D7%AA%D7%95%D7%93%D7%94)) deploys
 your dotfiles as symlinks, tells you exactly where each link came from, and
