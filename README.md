@@ -11,6 +11,7 @@
 [![PyPI downloads](https://img.shields.io/pypi/dm/toda)](https://pepy.tech/projects/toda)
 [![License: MPL-2.0](https://img.shields.io/pypi/l/toda)](LICENSE)
 [![Python versions](https://img.shields.io/pypi/pyversions/toda)](https://pypi.org/project/toda/)
+[![Runtime dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)](https://github.com/hgto/toda/blob/develop/pyproject.toml)
 [![Snyk](https://snyk.io/test/github/hgto/toda/badge.svg)](https://snyk.io/test/github/hgto/toda)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhgto%2Ftoda.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhgto%2Ftoda?ref=shield)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
@@ -267,6 +268,10 @@ the job. See [examples/dotfiles](examples/dotfiles) for a complete repo.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Bug reports and pull requests are
 welcome.
+
+Toda has no runtime dependencies. The repo's `uv.lock` pins only the
+development toolchain (pytest, ruff, mypy and friends) for contributors and
+CI; installs from PyPI resolve nothing but core Python.
 
 ## License
 
