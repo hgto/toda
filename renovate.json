@@ -2,6 +2,9 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["security:only-security-updates"],
   "minimumReleaseAge": "7 days",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "description": "One pull request for all GitHub Actions bumps",
