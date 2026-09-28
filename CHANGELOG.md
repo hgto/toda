@@ -8,6 +8,8 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Release artifacts are signed with Sigstore, and the signature bundles are
+  attached to the GitHub release alongside the wheel and sdist.
 - `toda --version`.
 - `inspect --format json`, and a readable section tree for plain `inspect`.
 - `--strict`, which makes a skipped `install` or `purge` entry fail the run.
